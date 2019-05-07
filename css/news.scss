@@ -1,0 +1,198 @@
+@charset "UTF-8";
+.header{
+  >div{
+    background: url("../img/img/20190422174826.png")no-repeat ;
+    background-position: 338px -2px;
+    background-size: auto 54px;
+  }
+}
+.content{
+  background-image: url("../img/news/60.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border-top: 2px solid #cccccc;
+  padding-bottom: 30px;
+  .search{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0 48px 0;
+    >div{
+      width: 264px;
+      height: 30px;
+      background-color: #e6e6e6;
+      border-radius: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: flex;
+      position: relative;
+      background-image: url("../img/news/search.png");
+      background-position: right center;
+      background-repeat: no-repeat;
+      -webkit-background-size: auto 30px;
+      background-size: auto 30px;
+      .search-btn{
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        right: 2px;
+        border-radius: 50%;
+        top: 2px;
+        cursor: pointer;
+      }
+      input{
+        height: 100%;
+        flex: 1;
+        background-color: transparent;
+        border: none;
+        outline: none;
+      }
+    }
+
+  }
+  .news-init{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    >div{
+      &:nth-of-type(1){
+        flex: 1;
+        .news-init-lists{
+          display: flex;
+          align-items: center;
+          margin-bottom: 54px;
+          &:nth-last-child(1){
+            margin-bottom: 50px;
+          }
+          .news-init-img{
+            width: 256px;
+            margin-right: 40px;
+            //height: 180px;
+            text-align: center;
+            img{
+              width: 100%;
+            }
+          }
+          .news-init-content{
+            flex: 1;
+            .news-init-time,.news-init-details{
+              padding-left: 38px;
+              font-size: 14px;
+            }
+            .link-new{
+              padding-left: 38px;
+              color: #0089ff;
+              margin-top: 8px;
+              cursor: pointer;
+            }
+            .news-title{
+              font-size: 18px;
+              font-weight: 600;
+              display: flex;
+              align-items: start;
+              img{
+                width: 20px;
+                margin-top: 2px;
+                margin-right: 16px;
+              }
+              span{
+                flex: 1;
+              }
+            }
+            .news-init-time{
+              color: #999999;
+              margin-top: 4px;
+              margin-bottom: 8px;
+            }
+            .news-init-details{
+              color: #333;
+
+            }
+          }
+        }
+      }
+
+      &:nth-of-type(2).news-init-line{
+        width: 100px;
+        //display: flex;
+        padding: 10px 0;
+
+        div{
+          //flex: 1;
+          height: 100%;
+          border-right: 1px solid #cccccc;
+        }
+      }
+
+      &:nth-of-type(3){
+        flex: none;
+        width: 400px;
+        .news-init-photo-box,.news-init-video-box{
+          &.news-init-video-box{
+            padding-top: 50px;
+            div{
+              border-bottom: none;
+            }
+          }
+          padding: 0 20px;
+          >div{
+            //border-bottom: 1px solid #ccc;
+            .news-init-photo{
+              width: 100%;
+              text-align: center;
+              padding-bottom: 50px;
+
+              img{
+                width: 234px;
+              }
+              &:nth-last-child(1){
+                padding-bottom: 10px;
+              }
+              .news-init-video{
+                width: 234px;
+                margin: 0 auto;
+                text-align: left;
+              }
+            }
+            .news-init-photo-href{
+              margin-bottom: 50px;
+              padding: 0 62px;
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+/*分页*/
+#kkpager_btn_go{
+  top: 0 !important;
+  left: 50px !important;
+  height: 20px !important;
+  background-color: #337ab7 !important;
+  border-color: #337ab7 !important;
+  color: #ffffff !important;
+}
+#kkpager_btn_go_input.focus{
+  border-color: #337ab7 !important;
+}
+
+#kkpager{
+  color: #666 !important;
+}
+#kkpager span.curr{
+  background-color: #337ab7 !important;
+  border-color: #337ab7 !important;
+  color: #ffffff !important;
+}
+#kkpager_btn_go_input{
+  height: 20px !important;
+  margin-left: 7px !important;
+  margin-right: 7px !important;
+}
+#kkpager span.disabled{
+  border: 1px solid #ddd !important;
+  color: #337ab7 !important;
+}

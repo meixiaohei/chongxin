@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.competition-banner{
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #cccccc;
+  h1{
+    position: absolute;
+    color: #ffffff;
+  }
+  img{
+    width: 100%;
+    float: left;
+  }
+}
+
+.content{
+  margin-bottom: 120px;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中国创新创业大赛</title>
+    <link rel="stylesheet" href="../css/common2.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="../css/kkpager_orange.css">
+    <script src="../libs/jquery-1.10.2.js"></script>
+    <script src="../libs/moment.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body>
+<div class="box">
+    <div class="header">
+        <div>
+            <div class="logo">
+                <a href="../index.html"><img src="../img/logo_black.png" alt=""></a>
+            </div>
+            <div class="nav">
+                <div class="nav-lists">
+                    <div><span><a href="../">首页</a></span></div>
+                    <div class="competition-tab"><span><a href="../page/competition.html">赛区赛制</a></span></div>
+                    <div><span><a href="../page/news.html">新闻时讯</a></span></div>
+                    <div><span><a href="../page/cooperationLanding.html">合作落地</a></span></div>
+                    <div><span><a href="http://third.iasic.com.cn/" target="_blank">往期回顾</a></span></div>
+                    <div><span><a href="../page/enroll.html">联系报名</a></span></div>
+                    <div class="login"><span>登录/注册</span></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="nav-position">
+            <div class="competition-nav">
+				<div><a href="competition.html?key=hn">浙江海宁市</a></div>
+				<div><a href="competition.html?key=zjg">江苏张家港</a></div>
+				<div><a href="javascript:void(0)" onclick="ale();" style="color: #7d7d7d;" href="competition.html?key=sy">北京顺义区</a></div>
+				<div><a href="javascript:void(0)" onclick="ale();" style="color: #7d7d7d;" href="competition.html?key=sz">江苏苏州市</a></div>
+				<div><a href="javascript:void(0)" onclick="ale();" style="color: #7d7d7d;" href="competition.html?key=lh">深圳龙华区</a></div>
+			</div>
+            <div class="login-nav">
+                <div style="font-size: 10px;"><a href="#">登录  Login</a></div>
+                <div style="font-size: 10px;"><a href="#">注册  Register</a></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="search">
+                <div>
+                    <input type="text" id="input">
+                    <div class="search-btn" id="search"></div>
+                </div>
+
+            </div>
+            <div class="news-init">
+                <div id="news_init">
+<!--
+                    <div class="news-init-lists">
+                        <div class="news-init-img"><img src="../img/home/home1.png" alt=""></div>
+                        <div class="news-init-content">
+                            <div class="news-title">
+                                <img src="../img/news/61.png" alt="">
+                                <span>2018国际第三代半导体专业赛圆满落幕半导体专业赛圆满落幕</span>
+                            </div>
+                            <div class="news-init-time">2019-03-08</div>
+                            <div class="news-init-details">是非成败转头空，青山依旧在，惯看秋月春风。一壶浊酒喜相逢，古今多少事，都付笑谈中。是非成败转头空，青山依旧在，惯看秋月春风。</div>
+                        </div>
+                    </div>
+-->
+
+<!--
+                    <div class="news-init-lists">
+                        <div class="news-init-img"><img src="../img/home/home1.png" alt=""></div>
+                        <div class="news-init-content">
+                            <div class="news-title">
+                                <img src="../img/news/61.png" alt="">
+                                <span>2018国际第三代半导体专业赛圆满落幕半导体专业赛圆满落幕</span>
+                            </div>
+                            <div class="news-init-time">2019-03-08</div>
+                            <div class="news-init-details">是非成败转头空，青山依旧在，惯看秋月春风。一壶浊酒喜相逢，古今多少事，都付笑谈中。是非成败转头空，青山依旧在，惯看秋月春风。</div>
+                        </div>
+                    </div>
+-->
+                </div>
+                <div class="news-init-line">
+                    <div></div>
+                </div>
+                <div>
+                    <div class="news-init-photo-box">
+                        <div id="photo">
+<!--
+                            <div class="news-init-photo"><img src="../img/home/home1.png" alt=""></div>
+                            <div class="news-init-photo"><img src="../img/home/home1.png" alt=""></div>
+                            <div class="news-init-photo"><img src="../img/home/home1.png" alt=""></div>
+                            <div class="news-init-photo"><img src="../img/home/home1.png" alt=""></div>
+-->
+                            <div class="news-init-photo-href"><a href="./division.html">进入相册</a></div>
+                        </div>
+                    </div>
+                    <!--<div class="news-init-video-box ">-->
+                        <!--<div>-->
+                            <!--<div class="news-init-photo">-->
+                                <!--<img src="../img/home/home1.png" alt="">-->
+                                <!--<div class="news-init-video">-->
+                                    <!--<div></div>-->
+                                    <!--<div>2018国际第三代半导体专业赛圆满落幕国际第三代</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="news-init-photo">-->
+                                <!--<img src="../img/home/home1.png" alt="">-->
+                                <!--<div class="news-init-video">-->
+                                    <!--<div></div>-->
+                                    <!--<div>2018国际第三代半导体专业赛圆满落幕国际第三代</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="news-init-photo">-->
+                                <!--<img src="../img/home/home1.png" alt="">-->
+                                <!--<div class="news-init-video">-->
+                                    <!--<div></div>-->
+                                    <!--<div>2018国际第三代半导体专业赛圆满落幕国际第三代</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="news-init-photo">-->
+                                <!--<img src="../img/home/home1.png" alt="">-->
+                                <!--<div class="news-init-video">-->
+                                    <!--<div></div>-->
+                                    <!--<div>2018国际第三代半导体专业赛圆满落幕国际第三代</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="news-init-photo-href"><a href="#">更多视频</a></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="call">
+            <div style="height: 154px;">
+                <div>
+                    <div class="call-icon">
+                        <img src="../img/home/icon17.png" alt="">
+                    </div>
+                    <div>
+                        <div>赛区申请承办 - 程先生</div>
+                        <div>Mobile: 137-0130-9834</div>
+                        <div>chengjianqiang@iasic.com.cn</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="call-icon">
+                        <img src="../img/home/icon16.png" alt="">
+                    </div>
+                    <div>
+                        <div>命题发布需求 - 张先生</div>
+                        <div>Mobile: 186-1041-5596</div>
+                        <div>zhangxuelei@iasic.com.cn</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="call-icon">
+                        <img src="../img/home/icon15.png" alt="">
+                    </div>
+                    <div>
+                        <div>报名参与大赛 - 丛女士</div>
+                        <div>Mobile: 156-0064-7799</div>
+                        <div>congfeiyang@iasic.com.cn</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../img/home/icon18.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="address-init">
+            <div style="height: 36px;">
+                <div>地址：北京市 • 海淀区 • 清华东路甲35号 • 中科院半导体所5号楼5层</div>
+                <div>
+					<div><a href="www.startech-x.com"><span style=" color:aliceblue">星启官网：www.startech-x.com</span></a></div>
+					<div><a href="www.casa-china.cn"><span style=" color:aliceblue">联盟官网：www.casa-china.cn</span></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="../libs/kkpager.min.js"></script>
+<script src="../js/news.js"></script>
+<script src="../js/hove.js"></script>
+</html>

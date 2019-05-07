@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中国创新创业大赛</title>
+    <link rel="stylesheet" href="./libs/swiper.min.css">
+    <script src="./libs/jquery-1.10.2.js"></script>
+    <script src="./libs/swiper.min.js"></script>
+    <script src="./libs/rollSlide.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div class="box">
+    <div class="header">
+        <div>
+            <div class="logo">
+                <a href="#">
+                    <img src="img/home/logo111.png" alt="">
+                </a>
+            </div>
+            <div class="nav">
+                <div class="nav-lists">
+                    <div><span><a href="#">首页</a></span></div>
+                    <div class="competition-tab">
+						<span><a href="page/competition.html">赛区赛制</a></span>
+                        <div class="competition-nav">
+                            <div><a href="./page/competition.html?key=hn">浙江海宁市</a></div>
+                            <div><a href="./page/competition.html?key=zjg">江苏张家港</a></div>
+							<div><a href="javascript:void(0)" onclick="ale();" 
+									style="color: #7d7d7d;" >北京顺义区</a></div>
+                            <div><a href="javascript:void(0)" onclick="ale();" style="color: #7d7d7d;" href="./page/competition.html?key=sz">江苏苏州市</a></div>
+                            <div><a href="javascript:void(0)" onclick="ale();" style="color: #7d7d7d;" href="./page/competition.html?key=lh">深圳龙华区</a></div>
+                        </div>
+                    </div>
+                    <div><span><a href="./page/news.html">新闻时讯</a></span></div>
+                    <div><span><a href="./page/cooperationLanding.html">合作落地</a></span></div>
+                    <div><span><a href="http://third.iasic.com.cn/" target="_blank">往期回顾</a></span></div>
+                    <div><span><a href="./page/enroll.html">联系报名</a></span></div>
+                    <div class="login">
+                        <span>登录/注册</span>
+                        <div class="competition-nav">
+                            <div  style="font-size: 10px;"><a href="#">登录  Login</a></div>
+                            <div  style="font-size: 10px;"><a href="#">注册  Register</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="banner">
+            <div class="swiper-container banner1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/home/banner3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/home/banner2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="entrance">
+            <div class="entrance-img">
+                <div>
+                    <div class="entrance-img1">第八届中国创新创业大赛</div>
+                    <div class="entrance-img2">国际第三代半导体专业赛</div>
+                    <div class="entrance-img3">报名入口</div>
+                </div>
+            </div>
+            <div class="entrance-text">
+                <span>
+                    第七届中国创新创业大赛国际第三代半导体专业赛东南赛区决赛于南昌高新区圆满闭蓽
+                2018国际第三代半导体专业赛全球总决赛颂奖典礼在京盛大举行
+                内行对内行，国际第三代半导体专业赛总决赛大中小企业融通专场实力开蓽
+                国际第三代半导体专业赛肋力地区经济提速
+                </span>
+                <br/><br/>
+                <a href="">更多资讯</a>
+            </div>
+        </div>
+        <div>
+            <div class="content-lists">
+                <div class="lists-text">
+                    <div>组织机构</div>
+                    <div>Organizations</div>
+                </div>
+                <div>
+                    <div class="company-lists-box">
+                        <div>
+                            <div>指导单位</div>
+                            <div>中国创新创业大赛组委会办公室</div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div>
+                            <div>主办单位</div>
+                            <div>
+                                第三代半导体产业技术创新战略联盟 <br>
+                                北京市顺义区人民政府 <br>
+                                张家港市人民政府
+                            </div>
+                            <div>
+                                深圳市龙华区人民政府 <br>
+                                浙江海宁市人民政府
+                            </div>
+                            <div></div>
+                        </div>
+                        <div>
+                            <div>承办单位</div>
+                            <div>
+                                张家港高新技术产业开发区管委会 <br>
+                                海宁市人力资源和社会保障局 <br>
+                                中关村科技园区顺义园管委会
+                            </div>
+                            <div>
+                                深圳第三代半导体研究院
+                            </div>
+                            <div></div>
+                        </div>
+                        <div>
+                            <div>协办单位</div>
+                            <div>
+                                国际半导体照明联盟 <br>
+                                北京半导体照明科技促进中心 <br>
+                                亚欧第三代半导体科技创新合作中心
+                            </div>
+                            <div>
+                                半导体照明联合创新国家重点实验室 <br>
+                                北京星启创新科技有限公司
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="roll-wrap roll_row organization-lists-box" id="e">
+                        <ul class="roll__list" style="position: absolute; left: 0; top: 0;">
+                            <li><div><img src="./img/home/111_03.png" alt=""></div></li>
+                            <li><div><img src="./img/home/111_05.png" alt=""></div></li>
+                            <li><div><img src="./img/home/111_07.png" alt=""></div></li>
+                            <li><div><img src="./img/home/111_09.png" alt=""></div></li>
+                            <li><div><img src="./img/home/111_11.png" alt=""></div></li>
+                            <li><div><img src="./img/home/111_13.png" alt=""></div></li>
+                            <li><div><img src="./img/home/111_15.png" alt=""></div></li>
+                        </ul>
+                    </div>
+                    <!--<div class="">-->
+                        <!--<div><img src="./img/home/111_03.png" alt=""></div>-->
+                        <!--<div><img src="./img/home/111_05.png" alt=""></div>-->
+                        <!--<div><img src="./img/home/111_07.png" alt=""></div>-->
+                        <!--<div><img src="./img/home/111_09.png" alt=""></div>-->
+                        <!--<div><img src="./img/home/111_11.png" alt=""></div>-->
+                        <!--<div><img src="./img/home/111_13.png" alt=""></div>-->
+                        <!--<div><img src="./img/home/111_15.png" alt=""></div>-->
+                    <!--</div>-->
+
+                </div>
+            </div>
+            <div class="content-lists">
+                <div class="lists-text">
+                    <div>关注领域</div>
+                    <div>Fields</div>
+                </div>
+                <div>
+                    <div class="fields">
+                        <div class="fields-lists">
+                            <div class="fields-lists-title">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>第三代半导体</span>
+                                            <span>材料与装备</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-lists-content">
+                                <div>碳化硅氮化镓蓝宝石晶体</div>
+                                <div>光电、晶体材料设备</div>
+                                <div>半导体制造检测服务</div>
+                                <div>光学检测设备</div>
+                                <div>视觉检测设备</div>
+                                <div>制造封测设备等</div>
+                            </div>
+                        </div>
+                        <div class="fields-lists">
+                            <div class="fields-lists-title">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>5G通信</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-lists-content">
+                                <div>氮化镓材料及射频器件</div>
+                                <div>高频封装及控制技术</div>
+                                <div>无线通信技术</div>
+                                <div>无人机高速通信</div>
+                                <div>新型射频终端方案</div>
+                                <div>通信终端系统方案等</div>
+                            </div>
+                        </div>
+                        <div class="fields-lists">
+                            <div class="fields-lists-title">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>新能源汽车</span>
+                                            <span>与轨道交通</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-lists-content">
+                                <div>汽车电子及功率半导体</div>
+                                <div>电力总成及变流系统</div>
+                                <div>电机控制技术</div>
+                                <div>有线及无线充电技术</div>
+                                <div>汽车照明光源及系统设计</div>
+                                <div>汽车雷达及智能驾驶等</div>
+                            </div>
+                        </div>
+                        <div class="fields-lists">
+                            <div class="fields-lists-title">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>智慧照明</span>
+                                            <span>及显示技术</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-lists-content">
+                                <div>Micro-LED技术</div>
+                                <div>小间距LED显示技术</div>
+                                <div>智能照明及系统</div>
+                                <div>光健康与光治疗</div>
+                                <div>紫外光源及应用</div>
+                                <div>新型LED封装及照明产品等</div>
+                            </div>
+                        </div>
+                        <div class="fields-lists">
+                            <div class="fields-lists-title">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>工业物联网</span>
+                                            <span>与智能制造</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-lists-content">
+                                <div>功率器件与射频器件</div>
+                                <div>传感器与探测器</div>
+                                <div>AI芯片</div>
+                                <div>物联网终端设备</div>
+                                <div>智能硬件与通信系统</div>
+                                <div>工业电机等</div>
+                            </div>
+                        </div>
+                        <div class="fields-lists">
+                            <div class="fields-lists-title">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>能源互联网</span>
+                                            <span>与新能源并网</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-lists-content">
+                                <div>宽禁带功率半导体</div>
+                                <div>材料及器件</div>
+                                <div>高温高压封装及模块</div>
+                                <div>电力控制及传输技术</div>
+                                <div>电力装置系统</div>
+                                <div>光伏及储能逆变系统</div>
+                                <div>风电变流系统等</div>
+                            </div>
+                        </div>
+                        <div class="fields-lists">
+                            <div class="fields-lists-title">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>消费类电子</span>
+                                            <span>及机器人</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-lists-content">
+                                <div>氮化镓功率电子材料及器件</div>
+                                <div>高功率密度电源系统</div>
+                                <div>机器人电能管理系统</div>
+                                <div>物联网终端设备</div>
+                                <div>变频家电</div>
+                                <div>宇航级电源技术等 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-lists">
+                <div class="lists-text">
+                    <div>顾问委员</div>
+                    <div>Consultants</div>
+                </div>
+                <div class="slider2">
+                    <div class="swiper-wrapper slider-wrap">
+                        <div class="adviser swiper-slide">
+                            <div class="adviser-lists">
+                                <img src="./img/home/p1.png" alt="">
+                                <div class="adviser-name">曹健林</div>
+                                <div>全国政协教科卫体委员会副主任</div>
+                                <div>科技部原副部长国际半导体照明联盟主席</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p2.png" alt="">
+                                <div class="adviser-name">干勇</div>
+                                <div>中国工程院院士，国家新材料产业</div>
+                                <div>发展专家咨询委员会主任</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p3.png" alt="">
+                                <div class="adviser-name">赵玉海</div>
+                                <div>深圳第三代半导体研究院院长</div>
+                                <div>科技部高新技术发展及产业化司原司长</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p4.png" alt="">
+                                <div class="adviser-name">李仲平</div>
+                                <div>中国工程院院士</div>
+                                <div>中国航天科技集团公司703所技术副所长</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p5.png" alt="">
+                                <div class="adviser-name">周孝信</div>
+                                <div>中国科学院院士</div>
+                                <div>中国电力科学研究院名誉院长</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p6.png" alt="">
+                                <div class="adviser-name">屠海令</div>
+                                <div>中国工程院院士</div>
+                                <div>北京有色金属研究总院名誉院长</div>
+                            </div>
+                        </div>
+                        <div class="adviser swiper-slide">
+                            <div class="adviser-lists">
+                                <img src="./img/home/p2.png" alt="">
+                                <div class="adviser-name">干勇</div>
+                                <div>中国工程院院士，国家新材料产业</div>
+                                <div>发展专家咨询委员会主任</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p1.png" alt="">
+                                <div class="adviser-name">曹健林</div>
+                                <div>全国政协教科卫体委员会副主任</div>
+                                <div>科技部原副部长国际半导体照明联盟主席</div>
+                            </div>
+
+                            <div class="adviser-lists">
+                                <img src="./img/home/p4.png" alt="">
+                                <div class="adviser-name">李仲平</div>
+                                <div>中国工程院院士</div>
+                                <div>中国航天科技集团公司703所技术副所长</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p3.png" alt="">
+                                <div class="adviser-name">赵玉海</div>
+                                <div>深圳第三代半导体研究院院长</div>
+                                <div>科技部高新技术发展及产业化司原司长</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p6.png" alt="">
+                                <div class="adviser-name">屠海令</div>
+                                <div>中国工程院院士</div>
+                                <div>北京有色金属研究总院名誉院长</div>
+                            </div>
+                            <div class="adviser-lists">
+                                <img src="./img/home/p5.png" alt="">
+                                <div class="adviser-name">周孝信</div>
+                                <div>中国科学院院士</div>
+                                <div>中国电力科学研究院名誉院长</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-lists">
+                <div class="lists-text">
+                    <div>地区分布</div>
+                    <div>Regions</div>
+                </div>
+                <div>
+                    <div class="regions">
+                        <img src="img/home/icon14.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="call">
+            <div style="height: 154px;">
+                <div>
+                    <div class="call-icon">
+                        <img src="img/home/icon17.png" alt="">
+                    </div>
+                    <div>
+                        <div>赛区申请承办 - 程先生</div>
+                        <div>Mobile: 137-0130-9834</div>
+                        <div>chengjianqiang@iasic.com.cn</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="call-icon">
+                        <img src="img/home/icon16.png" alt="">
+                    </div>
+                    <div>
+                        <div>命题发布需求 - 张先生</div>
+                        <div>Mobile: 186-1041-5596</div>
+                        <div>zhangxuelei@iasic.com.cn</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="call-icon">
+                        <img src="img/home/icon15.png" alt="">
+                    </div>
+                    <div>
+                        <div>报名参与大赛 - 丛女士</div>
+                        <div>Mobile: 156-0064-7799</div>
+                        <div>congfeiyang@iasic.com.cn</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/home/icon18.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <div style="height: 36px;">
+                <div>地址：北京市 • 海淀区 • 清华东路甲35号 • 中科院半导体所5号楼5层</div>
+                <div>
+					<div><a href="www.startech-x.com"><span style=" color:aliceblue">星启官网：www.startech-x.com</span></a></div>
+					<div><a href="www.casa-china.cn"><span style=" color:aliceblue">联盟官网：www.casa-china.cn</span></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

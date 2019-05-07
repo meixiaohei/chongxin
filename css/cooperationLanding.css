@@ -1,0 +1,71 @@
+.cooperation-banner {
+  width: 100%;
+  position: relative; }
+  .cooperation-banner .cl-banner-text-box-1 {
+    color: #ffffff; }
+    .cooperation-banner .cl-banner-text-box-1 .cooperation-banner-title {
+      text-shadow: 2px 5px 10px #444; }
+    .cooperation-banner .cl-banner-text-box-1 .cl-btn > div {
+      box-shadow: 1px 2px 10px 0 #666;
+      border: 1px solid #fff; }
+  .cooperation-banner .cl-banner-text-box-2 {
+    color: #007383; }
+    .cooperation-banner .cl-banner-text-box-2 .cooperation-banner-title {
+      text-shadow: 2px 5px 10px #999; }
+    .cooperation-banner .cl-banner-text-box-2 .cl-btn > div {
+      margin-left: 200px;
+      border: 1px solid #007383;
+      box-shadow: 1px 2px 10px 0 #999; }
+  .cooperation-banner .cl-banner-text-box-1, .cooperation-banner .cl-banner-text-box-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100; }
+    .cooperation-banner .cl-banner-text-box-1 > div, .cooperation-banner .cl-banner-text-box-2 > div {
+      width: 1200px;
+      margin: 0 auto; }
+      .cooperation-banner .cl-banner-text-box-1 > div .cl-bn-text-box-position, .cooperation-banner .cl-banner-text-box-2 > div .cl-bn-text-box-position {
+        width: 660px; }
+      .cooperation-banner .cl-banner-text-box-1 > div .cl-right, .cooperation-banner .cl-banner-text-box-2 > div .cl-right {
+        float: right;
+        padding-top: 100px; }
+    .cooperation-banner .cl-banner-text-box-1 .cooperation-banner-title, .cooperation-banner .cl-banner-text-box-2 .cooperation-banner-title {
+      font-size: 64px;
+      font-weight: 600;
+      margin-bottom: 28px; }
+    .cooperation-banner .cl-banner-text-box-1 .cl-bn-text-lists, .cooperation-banner .cl-banner-text-box-2 .cl-bn-text-lists {
+      line-height: 28px; }
+    .cooperation-banner .cl-banner-text-box-1 .cl-btn div, .cooperation-banner .cl-banner-text-box-2 .cl-btn div {
+      cursor: pointer;
+      width: 164px;
+      height: 46px;
+      line-height: 46px;
+      font-weight: 500;
+      margin-top: 30px;
+      text-align: center;
+      font-size: 20px; }
+  .cooperation-banner img {
+    width: 100%;
+    float: left; }
+
+.cooperativePartner {
+  width: 100%;
+  padding: 30px 0;
+  border-top: 2px #cccccc solid;
+  background-color: #efefef; }
+  .cooperativePartner > div {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; }
+    .cooperativePartner > div > div {
+      margin: 30px 0;
+      flex: 1;
+      height: 70px;
+      text-align: center; }
+      .cooperativePartner > div > div img {
+        height: 100%; }
+
+/*# sourceMappingURL=cooperationLanding.css.map */

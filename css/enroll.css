@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+.header > div {
+  background: url("../img/img/20190422174826.png") no-repeat;
+  background-position: 338px -2px;
+  background-size: auto 54px; }
+
+.banner-box {
+  position: relative;
+  background-image: url("../img/enroll/banner.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.content {
+  width: 100%;
+  min-width: 1200px;
+  height: 410px; }
+  .content > div {
+    margin: 0 auto;
+    width: 1200px;
+    line-height: 22px; }
+    .content > div > div:nth-of-type(2) p {
+      font-size: 12px;
+      text-indent: 25px;
+      color: white;
+      margin-bottom: 16px; }
+    .content > div > div:nth-of-type(3).baoming {
+      width: 100%;
+      margin-top: 26px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+      .content > div > div:nth-of-type(3).baoming a {
+        color: white;
+        font-weight: bolder;
+        border: 1px solid white;
+        padding: 3px 20px;
+        text-decoration: none; }
+  .content .content-logo {
+    height: 20px;
+    padding: 20px 0 30px 0; }
+
+.footer .call {
+  background-color: #eff9f887; }
+
+/*# sourceMappingURL=enroll.css.map */

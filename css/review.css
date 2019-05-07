@@ -1,0 +1,15 @@
+competition.html.competition-banner {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #cccccc; }
+  .competition-banner h1 {
+    position: absolute;
+    color: #ffffff; }
+  .competition-banner img {
+    width: 100%;
+    float: left; }
+
+.content {
+  margin-bottom: 120px; }
+
+/*# sourceMappingURL=review.css.map */
